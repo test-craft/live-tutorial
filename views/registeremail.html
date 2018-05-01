@@ -1,0 +1,16 @@
+
+<section class="card login animate fadeInDown">
+    <form name="myform"
+          ng-submit="registeremail()"
+          novalidate>
+
+        <div class="textintro ">
+            <h1>Enter your email</h1>
+        </div>
+        <fieldset>
+            <input type="email" name="email" id="emailText" placeholder="Enter email"
+                   ng-model="user.email" ng-required="true">
+        </fieldset>
+        <button type="submit" id="registerEmailButton" class="btn"  ng-disabled="myform.$invalid">Next</button>
+    </form>
+</section>
