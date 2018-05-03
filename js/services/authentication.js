@@ -9,7 +9,7 @@ myApp.factory('Authentication',
                     $location.path('/registeremail');
                 }, //register
                 registeremail: function() {
-                    $location.path('/registerpassword');
+                    $location.path('/success');
                 }, //
                 registerpassword: function() {
                     $location.path('/success');

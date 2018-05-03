@@ -74,18 +74,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
-  background-color: #F7F7F7;
+
   min-height: 100%;
   height: auto;
 }
 
 body  {
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   font-size: 1rem;
   line-height: 160%;
   color: #555459;
   line-height: 1.5rem;
   *zoom: 1;
+}
+option{
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 .card {
@@ -99,7 +104,7 @@ body  {
   position: relative;
   opacity: .95;
   border-radius: 4px;
-  border: 1px solid #e8e8e8;
+  /*border: 1px solid #e8e8e8;*/
 
 }
 
@@ -110,14 +115,16 @@ body  {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   font-weight: 100;
   text-shadow: 1px 1px rgb(255,255,255);
 }
 
 a {
   color: #2D8BCF;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 header {
@@ -126,12 +133,13 @@ header {
 
 h1{
   font-size: 2.2rem;
-  font-weight: 400;
+  /*font-weight: 400;*/
   line-height: 100%;
   margin-bottom: 10px;
   padding-top: 10px;
-  font-weight: 700;
-  font-family: Lato,appleLogo,sans-serif;
+  /*font-weight: 700;*/
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   margin: 0 0 1rem;
   text-transform: uppercase;
 }
@@ -165,7 +173,7 @@ input {
   display: inline-block;
   font-weight: 100;
   padding: 15px;
-  margin: 5px 0;
+  margin: 15px 0;
   font-size: 1rem;
   font-weight: 100;
   color: #475B62;
@@ -195,9 +203,9 @@ input[type=radio] {
 
 .btn {
   display: inline-block;
-  padding: 12px 24px;
+  padding: 18px 50px;
   margin-top:50px;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 140%;
   text-align: center;
@@ -221,6 +229,8 @@ input[type=radio] {
   -o-user-select: none;
   user-select: none;
   text-transform: uppercase;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -253,11 +263,6 @@ fieldset {
   margin: 10px 0;
 }
 
-.textintro h1 {
-  margin: 0;
-  padding: 0;
-  margin-top: 20px;
-}
 
 .search {
   background: #F5F5F5;
@@ -268,7 +273,8 @@ fieldset {
   border-radius: 4px;
   text-align: left;
   font-size: 1.1rem;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 .search h2 {
@@ -299,7 +305,8 @@ fieldset {
 
 .search label {
   font-size: 1rem;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   color: #576E75;
 }
 
@@ -417,7 +424,8 @@ ul.awardslist li {
   color: white;
   font-weight: normal;
   border-radius: 4px;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 ul.awardslist li:hover {
@@ -467,7 +475,8 @@ nav ul {
 nav ul li {
   float: right;
   color: #145266;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   margin: 10px 0;
   font-size: 1.1em;
 }
@@ -475,7 +484,8 @@ nav ul li {
 nav ul li.user {
   background-color: #D24244;
   color: #EFC94C;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 
 nav ul li.user.hello {
@@ -496,7 +506,8 @@ nav li a:hover {
 
 .userinfo {
   text-align: center;
-  font-family: Lato, 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
   padding-bottom: 5px;
 }
 
@@ -632,7 +643,7 @@ input.ng-valid.ng-touched {
 
 
 .page{
-  margin: 15%;
+  margin: 5%;
 }
 
 
@@ -859,6 +870,9 @@ select {
   background: white;
   overflow: hidden;
   border-radius: .25em;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 1rem;
 }
 select {
   width: 100%;
@@ -901,7 +915,8 @@ select::-ms-expand {
 /* ∞∞ font ∞∞ */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,900);
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
 }
 /* ∞∞ global ∞∞ */
 * {
@@ -929,7 +944,6 @@ input[type="radio"] {
 
 input[type="radio"] +label {
   color: #505050;
-  font-weight: bold;
   font-size: 1rem;
   cursor: pointer;
   -webkit-user-select: none;
@@ -1044,4 +1058,12 @@ section.input-container label input:focus + span, section.input-container label 
 .genderRadio{
   margin-top: 60px;
   margin-bottom: 20px;
+}
+
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
 }
