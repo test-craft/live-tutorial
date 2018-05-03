@@ -9,17 +9,6 @@
             <input type="firstname" name="firstname" id="firstNameText" placeholder="First Name" ng-model="user.firstName" ng-required="true">
             <input type="lastname" name="lastname" id="lastNameText" placeholder="Last Name"  ng-model="user.lastName" ng-required="true">
 
-            <div class="genderRadio" id="genderRadio" ng-model="user.gender">
-                    <input type="radio" name="gender-radio" id="male-radio" value="Male"/>
-                    <label for="male-radio">Male</label>
-
-                    <input type="radio" name="gender-radio" id="female-radio" value="Female"/>
-                    <label for="female-radio">Female</label>
-
-                    <input type="radio" name="gender-radio" id="other-radio" value="Other"/>
-                    <label for="other-radio">Other</label>
-            </div>
-
             <div class="countrySelect">
                 <select class="select" id="selectCountry" name="country">
                     <option value="">Country...</option>
@@ -271,6 +260,17 @@
                     <option value="Zambia">Zambia</option>
                     <option value="Zimbabwe">Zimbabwe</option>
                 </select>
+            </div>
+
+            <div class="genderRadio" id="genderRadio" ng-model="user.gender">
+                <input type="radio" name="gender-radio" id="male-radio" value="Manual"/>
+                <label for="male-radio">Manual</label>
+
+                <input type="radio" name="gender-radio" id="female-radio" value="Automatic"/>
+                <label for="female-radio">Automatic</label>
+
+                <input type="radio" name="gender-radio" id="other-radio" value="Other"/>
+                <label for="other-radio">Other</label>
             </div>
 
         </fieldset>
