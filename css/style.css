@@ -94,7 +94,7 @@ body  {
   max-width: 850px;
   margin-left: auto;
   margin-right: auto;
-  padding: 100px 40px;
+  padding: 60px 40px;
   text-align: center;
   position: relative;
   opacity: .95;
@@ -1039,15 +1039,7 @@ section.input-container label input:focus + span, section.input-container label 
   opacity: 1;
   top: 10px;
 }
-section.input-container label span {
-  font-size: .8rem;
-  color: #505050;
-  position: absolute;
-  top: 0px;
-  left: 20px;
-  opacity: 0;
-  transition: all 0.2s ease-in-out;
-}
+
 
 .genderRadio{
   margin-top: 60px;
