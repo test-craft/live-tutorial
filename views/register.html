@@ -261,19 +261,18 @@
                     <option value="Zimbabwe">Zimbabwe</option>
                 </select>
             </div>
-
             <div class="genderRadio" id="genderRadio" ng-model="user.gender">
-                <input type="radio" name="gender-radio" id="male-radio" value="Manual"/>
-                <label for="male-radio">Manual</label>
+                <input type="radio" name="gender-radio" id="male-radio" value="manual"/>
+                <label for="male-radio">manual</label>
 
-                <input type="radio" name="gender-radio" id="female-radio" value="Automatic"/>
-                <label for="female-radio">Automatic</label>
+                <input type="radio" name="gender-radio" id="female-radio" value="automation"/>
+                <label for="female-radio">automation</label>
 
-                <input type="radio" name="gender-radio" id="other-radio" value="Other"/>
-                <label for="other-radio">Other</label>
+                <input type="radio" name="gender-radio" id="other-radio" value="other"/>
+                <label for="other-radio">other</label>
             </div>
 
         </fieldset>
-        <button type="submit" id="registerButton" class="btn"  ng-disabled="myform.$invalid">Continue</button>
+        <button type="submit" id="registerButton" class="btn"  ng-disabled="myform.$invalid"><span>Continue </span></button>
     </form>
 </section>
